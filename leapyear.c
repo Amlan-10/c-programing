@@ -1,9 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int year, d;
-    printf("Enter the year to be checked\n");
-    scanf("%d", &year);
+    int year;
+    printf("Enter a year: ");
+    scanf("%d", year);
+    leap(year);
+    return 0;
+}
+int leap()
+{
+    int year,d;
+
     d = (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);
     if (d == 1)
     {
