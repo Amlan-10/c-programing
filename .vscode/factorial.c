@@ -3,7 +3,7 @@ int factorial(int x);
 int main()
 {
     int a;
-    printf("Enter the number whose factorial you want \n");
+    printf("Enter the number whose factorial you want: \n");
     scanf("%d", &a);
     printf("The factorial of %d is %d \n " ,a, factorial(a));
 return 0;
