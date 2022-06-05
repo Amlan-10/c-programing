@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    int i=0,n;
+    int i =0,n;
     float *data;
     printf("Enter total no. of elements (1-100) : ");
     scanf("%d",&n);

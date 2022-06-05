@@ -9,12 +9,12 @@ int main()
     };
 
     struct emp
-    {
+    { 
         char name[25];
         struct address adr;
     };
 
-    struct emp e ={"Amlan ", "0334567891", "Kolkata", 121};
+    struct emp e ={"Amlan ", "0334565891", "Kolkata", 121};
     printf("\n Name = %s ; Phone = %s", e.name,e.adr.phone);
     printf("\n City = %s ; Pin = %d", e.adr.city,e.adr.pin);
 
