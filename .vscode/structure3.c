@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<stdio.h>
+#include<stdlib.h>
 
 struct people
 {
@@ -13,7 +13,7 @@ struct people
 {
    
     int n,i;
-    printf("The number of people is:\n");
+    printf("The number of student is:\n");
     scanf("%d",&n);
     struct people details[n];
     for(i=0;i<n;i++)
