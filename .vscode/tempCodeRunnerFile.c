@@ -1,1 +1,1 @@
- printf("Prime number\n");
+struct people details[n];

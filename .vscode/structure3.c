@@ -24,7 +24,7 @@ struct people
         scanf("%d",&details[i].age);
         printf("Enter the gender of the people:");
         scanf("%s",&details[i].gender);
-        printf("Enter the conatct number of the people:");
+        printf("Enter the contact number of the people:");
         scanf("%d",&details[i].contact_number);
         
     }
