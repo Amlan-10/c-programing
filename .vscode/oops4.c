@@ -42,7 +42,7 @@ void input(int n, struct Product p[100])
 
 void display(int n, struct Product p[n])
 {
-
+printf("*******************************************");
     for (int i = 0; i < n; i++)
     {
         printf("Product number : %d\n", p[i].p_no);

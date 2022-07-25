@@ -11,5 +11,6 @@ for(int i=0;i<n;i++){
     scanf("%d",&ptr[i]);
     printf("The number at index %d is %d\n",i,ptr[i]);
 }
+
 return 0;
 }
