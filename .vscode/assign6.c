@@ -24,7 +24,7 @@ int main()
             printf("Input the elements %d of Array : ", i + 1);
             scanf("%f", &a[i]);
         }
-        printf("Element       NGE\n");
+        printf("Element\t\t\tNGE\n");
         for (i = 0; i < n; i++)
         {
             found = 0;
@@ -32,14 +32,14 @@ int main()
             {
                 if (a[i] < a[j])
                 {
-                    printf("  %g           %g\n", a[i], a[j]);
+                    printf("  %g\t\t\t%g\n", a[i], a[j]);
                     found = 1;
                     break;
                 }
             }
             if (found == 0)
             {
-                printf("  %g          -1\n", a[i]);
+                printf("  %g\t\t\t-1\n", a[i]);
             }
         }
     }

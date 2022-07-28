@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-    int *arr,n,i,j,pos,temp;
+    int *arr,n,i,j,temp;
     printf("Enter the number of elements in the Array:");
     scanf("%d",&n);
     arr=(int*)malloc(n*sizeof(arr));

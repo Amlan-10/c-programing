@@ -1,19 +1,18 @@
 #include <stdio.h>
-void sort(int a[]);
+void sort(int[],int);
 void swap(int a[], int i, int j);
 int main()
 {
     int n;
     int nums[n];
-    // nums=(int*)malloc(n*sizeof(nums));
     printf("Enter the number the elements in  the array : ");
     scanf("%d", &n);
-    printf("The sorted array is: %d",sort(nums));
+    sort(nums,n);
     return 0;
 }
-void sort(int a[])
+void sort(int a[],int n)
 {
-    int n = sizeof(a);
+     n = sizeof(a);
     int k = 0;
     for (int i = 0; i < n - 1; i++)
     {

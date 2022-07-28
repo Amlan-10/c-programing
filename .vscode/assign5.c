@@ -14,7 +14,7 @@ int getCount(float *arr, int n, float num1, float num2)
     int j;
     for (j = n - 1; j >= i + 1; j--)
         if (arr[j] == num2)
-            break;
+        break;
 
     if (j == i)
         return 0;
@@ -42,10 +42,9 @@ int main()
         {
             scanf("%f", &a[i]);
         }
-
-        printf("Enter the lower and upper limit number : ");
+        printf("Enter the lower and upper limit number: ");
         scanf("%f %f", &n1, &n2);
-        printf("The number of elements between %g and %g (both inclusive) : %d ", n1, n2, getCount(a, n, n1, n2) + 2);
+        printf("The number of elements between %g and %g (both inclusive) : %d ", n1, n2, getCount(a, n, n1, n2)+2);
     }
     return 0;
 }
